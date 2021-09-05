@@ -1,5 +1,5 @@
 # myClasses
-myClasses built on standard Python (meta) Classes
+myClasses inheriting from standard Python (meta) Classes
 
 
 **xList** adds a few extra functions to those inherited by list. 
