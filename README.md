@@ -17,6 +17,6 @@ myClasses inheriting from standard Python (meta) Classes
 
 
 
-*xDict* adds a function to Python dict
+**xDict** adds a function to Python dict
 
 `xDict.reap()` - returns a zero (or preset class variable) instead of `None` from standard dict
