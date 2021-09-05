@@ -13,3 +13,8 @@ myClasses inheriting from standard Python (meta) Classes
 `xList.items()` - returns a set of the xList
 
 `xList.wildcard(arg)` - if xList is strings only, returns all instances featuring wildcard 
+
+
+*xDict* adds a function tp Python dict
+
+`xDict.reap()` - returns a zero rather than None from standard dict
