@@ -17,4 +17,4 @@ myClasses inheriting from standard Python (meta) Classes
 
 *xDict* adds a function tp Python dict
 
-`xDict.reap()` - returns a zero rather than None from standard dict
+`xDict.reap()` - returns a zero (or preset class variable) instead of `None` from standard dict
