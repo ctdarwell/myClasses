@@ -26,17 +26,13 @@ class xList(list):
 
 
 class xDict(dict):
-    #class variable
-    out = 0
-    
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.__dict__ = self
+        self.out = 0
 
     def reap(self, qw):
-        if qw not in self.keys(): return xDict.out
+        if qw not in self.keys(): return self.out
         else: return self.get(qw)
-
-    @classmethod #class method
-    def set_out(cls, x): #USE cls (equivalent to self)
-        cls.out = x
+        
+    def modify(self, qw):
+        self.out = qw
