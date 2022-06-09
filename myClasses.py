@@ -1,4 +1,4 @@
-#modifies list.remove(), list.index() & provides set() & wildcard()
+#Class1: modifies list.remove(), list.index() & provides set() & wildcard()
 class xList(list):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -21,7 +21,8 @@ class xList(list):
         try: return xList([x for x in self if w in x])
         except: print("Incorrect data type. <None> returned!")
 
-#modifies dict.get() to return zero or other user-defined value
+
+#Class2: modifies dict.get() to return zero or other user-defined value
 class xDict(dict):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
