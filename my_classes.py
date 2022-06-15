@@ -1,4 +1,4 @@
-#Class1: modifies list.remove(), list.index() and provides set() and wildcard()
+#Class1: modifies list.remove(), list.index() & provides set() & wildcard()
 class xList(list):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
